@@ -1,0 +1,29 @@
+numpy
+pandas
+matplotlib
+seaborn
+
+
+
+PyMuPDF
+tqdm
+accelerate
+sentence-transformers
+transformers
+requests
+pytesseract
+pdf2image
+Pillow
+# PyTorch with CUDA 12.4 support
+torch
+torchvision
+torchaudio
+
+# Quantization
+bitsandbytes
+
+# Optional (may fail on Windows, only needed for large LLM speedups)
+flash-attn ; platform_system != "Windows"
+
+#Embeding df
+faiss-cpu
